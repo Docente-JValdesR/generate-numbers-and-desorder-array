@@ -36,8 +36,9 @@ export default function NumberShuffler() {
       setArray(generatedArray);
       setIsClean(false);
     } else if (optionSelected === 'numbers') {
-      const numbersArray = numbersInput.split(' ').map((num) => Number(num));
+      const numbersArray = numbersInput.split(/[^0-9]+/).map(Number).filter(Boolean);      
       setArray(numbersArray);
+      console.log(numbersArray);
       setIsClean(false);
     }
   };

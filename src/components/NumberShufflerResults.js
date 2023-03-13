@@ -77,10 +77,10 @@ export default function NumberShufflerResults({
         </div>
       </div>
 
-      <div className="row justify-content-center">
-        <div className="col-3">
+      <div className="row justify-content-center d-flex flex-column align-content-center">
+        <div className="col-10 col-lg-4 d-flex flex-row my-1 justify-content-between">
           <button
-            className="btn btn-sm btn-secondary"
+            className="btn btn-sm btn-secondary d-flex"
             onClick={() => setShowRange(!showRange)}
           >
             Rango
@@ -97,7 +97,7 @@ export default function NumberShufflerResults({
             </div>
           )}
         </div>
-        <div className="col-3">
+        <div className="col-10 col-lg-4 d-flex flex-row my-1 justify-content-between">
           <button
             className="btn btn-sm btn-secondary"
             onClick={() => setShowMean(!showMean)}
@@ -118,7 +118,7 @@ export default function NumberShufflerResults({
               </div>
             )}
         </div>
-        <div className="col-3">
+        <div className="col-10 col-lg-4 d-flex flex-row my-1 justify-content-between">
           <button
             className="btn btn-sm btn-secondary"
             onClick={() => setShowMode(!showMode)}
@@ -146,7 +146,7 @@ export default function NumberShufflerResults({
             )}
         </div>
 
-        <div className="col-3">
+        <div className="col-10 col-lg-4 d-flex flex-row my-1 justify-content-between">
           <button
             className="btn btn-sm btn-secondary"
             onClick={() => setShowMedian(!showMedian)}
@@ -171,7 +171,7 @@ export default function NumberShufflerResults({
               </div>
             )}
         </div>
-        <div className="col-3">
+        <div className="col-10 col-lg-4 d-flex flex-row my-1 justify-content-between">
           <button
             className="btn btn-sm btn-secondary"
             onClick={() => setShowCount(!showCount)}

@@ -73,11 +73,12 @@ export default function NumberShufflerOptions({
                 className="form-control"
                 placeholder="Ingresa los números a barajar"
                 value={numbersInput}
+                inputMode="tel"
                 onChange={onNumbersInputChange}
                 id="floatingTextarea"
                 style={{height: '150px'}}
               />
-              <label htmlFor="floatingTextarea">Comments</label>
+              <label htmlFor="floatingTextarea">Esribe los numeros</label>
             </div>
           </div>
         )}
