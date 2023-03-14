@@ -15,7 +15,7 @@ export default function NumberShufflerOptions({
   return (
     <div className="container">
       <div className="row justify-content-center mt-3">
-        <div className="col-10 col-lg-6 d-lg-flex justify-content-center">
+        <div className="col-8 col-lg-6 d-lg-flex justify-content-center">
           <div className="form-group mt-3">
             <select
               value={optionSelected}

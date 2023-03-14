@@ -1,5 +1,5 @@
 import React from "react";
-
+import FileUpload from "./FileInput";
 const options = [
   {
     id: "inlineRadio1",
@@ -51,6 +51,7 @@ function Checkboxes({ option, handleOptionChange, windowSize }) {
           />
         </div>
       ))}
+    
     </div>
   );
 }
